@@ -123,7 +123,7 @@ export default function BugHunter() {
           {gameState === 'lost' ? 'GAME OVER' : 'VICTORY!'}
         </h1>
         <p className="mb-8 text-gray-400 text-xl">
-          {gameState === 'lost' ? '당신의 시력과 집중력이 한계에 도달했습니다.' : '완벽합니다! 당신은 인간 디버거입니다.'}
+          {gameState === 'lost' ? '당신의 뇌나이는 "64세" 입니다' : '완벽합니다! 당신은 인간 디버거입니다.'}
         </p>
         <button onClick={() => window.location.reload()} className="px-12 py-5 bg-white text-black font-bold rounded-full text-2xl transition-transform hover:scale-110">
           다시 도전하기
